@@ -1,0 +1,10 @@
+1. Ask the user what kind of hill they will be skiing on
+    1a. while the user does not input large hill or normal hill, ask again for an input
+2. Ask the user how fast they were going in m/s
+3. Calculate how long they were in the air using the formula sqrt((2*height)/9.8)
+4. Calculate the distance that they travelled using the formula jumpers speed*time in air
+5. Calculate how many points they earned using the formula 60 + (distance - par)*points_per_meter
+6. Output their distance and points
+7. If the users points are 61 or higher, output "Great job for doing better that par"
+    7a. Otherwise, if the users points are less than 10, output "What happened?!"
+    7b. Otherwise, output "Sorry you didn't go very far"
